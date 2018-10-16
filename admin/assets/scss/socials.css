@@ -1,0 +1,30 @@
+ .social.facebook {
+    background: #3b5998; }
+    .social.facebook:hover {
+      background: #344e86; }
+  .social [class*="-facebook"] {
+    background: #2d4373; }
+  .social.twitter {
+    background: #00aced; }
+    .social.twitter:hover {
+      background: #0099d4; }
+  .social [class*="-twitter"] {
+    background: #0087ba; }
+  .social.linkedin {
+    background: #4875b4; }
+    .social.linkedin:hover {
+      background: #4169a2; }
+  .social [class*="-linkedin"] {
+    background: #395d90; }
+  .social.youtube {
+    background: #b00; }
+    .social.youtube:hover {
+      background: #a20000; }
+  .social [class*="-youtube"] {
+    background: #880000; }
+  .social.instagram {
+    background: #517fa4; }
+    .social.instagram:hover {
+      background: #497293; }
+  .social [class*="-instagram"] {
+    background: #406582; }
