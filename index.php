@@ -67,7 +67,6 @@ if (isset($_POST['search'])){
 
 <!doctype html>
 <html lang="en">
-<>
     <meta charset="utf-8">
     <meta name="Description" content="tuk,tukenya.ac.ke,Technical University of Kenya,tuk elections,tukelections,
     technical university of kenya elections,tuk online voting,tukvotes,technical university of Kenya votes">

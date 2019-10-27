@@ -7,7 +7,7 @@ class Database
     private $password = "";
     public $conn;
 
-   /* private $host = "localhost";
+/* private $host = "localhost";
     private $db_name = "id4002952_vote3login";
     private $username = "id4002952_tukvotes";
     private $password = "itstbag";
@@ -30,3 +30,24 @@ class Database
         return $this->conn;
     }
 }
+/*
+class Database{
+
+    $mysqli = new mysqli("localhost", "my_user", "my_password", "world");
+
+/* check connection */
+/*
+if (mysqli_connect_errno()) {
+    printf("Connect failed: %s\n", mysqli_connect_error());
+    exit();
+}
+
+
+}
+
+/* close connection */
+/*
+$mysqli->close();
+?>
+}
+*/

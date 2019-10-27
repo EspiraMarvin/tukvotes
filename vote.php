@@ -9,7 +9,6 @@ $user_id = $_SESSION['user_session'];
 
 $stmt = $user->runQuery("SELECT * FROM users WHERE user_id=:user_id");
 $stmt->execute(array(":user_id"=>$user_id));
-
 $userRow=$stmt->fetch(PDO::FETCH_ASSOC);
 
 $stmt = $user->runQuery("SELECT * FROM contestants WHERE user_position='chairperson'");

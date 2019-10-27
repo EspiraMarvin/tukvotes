@@ -149,7 +149,7 @@ $contestantRow=$stmt->fetchAll(PDO::FETCH_ASSOC);
             </div>
         </div>
 
-    </header><!-- /header --
+    </header><!-- /header -->
         <!-- Header-->
 
         <div class="breadcrumbs">

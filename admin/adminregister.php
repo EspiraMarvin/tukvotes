@@ -54,7 +54,7 @@ if (isset($_POST['register']))
 ?>
 
 <!doctype html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -172,7 +172,7 @@ if (isset($_POST['register']))
 
                 <div class="language-select dropdown" id="language-select">
                     <img class="dropdown-toggle" href="#" data-toggle="dropdown"  id="language" aria-haspopup="true" aria-expanded="true">
-                    <img style="margin-top: -4px" src="../favicon/favicon-32x32.png" width="32" height="22">
+                    <img style="margin-top: -4px" src="../favicon/favicon-32x32.png" alt ="" width="32" height="22">
                     <i  class="flag-icon flag-icon-ke"></i>
                 </div>
 

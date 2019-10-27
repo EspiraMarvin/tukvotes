@@ -1,5 +1,5 @@
 <?php
-require_once('dbconfig.php');
+require_once('model/dbconfig.php');
 class USER
 {
     private $conn;
@@ -77,7 +77,7 @@ class USER
         {
             return true;
         }
-  return false;
+        return false;
     }
 
 
@@ -186,6 +186,7 @@ class USER
         unset($_SESSION['user_session']);
         return true;
     }
+
     //admin logout function
 
     public function adminLogout()

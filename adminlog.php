@@ -3,10 +3,12 @@ session_start();
 require_once("class.user.php");
 $login = new USER();
 
+
 if ($login->is_adminloggedin()!="")
 {
     $login->redirect('admin/index.php');
 }
+
 
 if (isset($_POST['login']))
 {
